@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin: 5px;
+}
+
+#age {
+    margin-left: 48px;
+}
+
+#survey {
+    margin-left: 33%;
+}
+
+#instruction {
+    text-align: center;
+}
+
+body {
+    background-color: rgba(74, 167, 135, 0.5);
+    font-family: 'Lobster';
+}
+
+#frm {
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+  
+    font-size: 1.3em;
+}
+
+input[type="submit"] {
+    padding: 5px;
+    margin-bottom: 10px;
+}
