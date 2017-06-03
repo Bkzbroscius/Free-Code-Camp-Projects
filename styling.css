@@ -1,0 +1,138 @@
+#projects, #contact-section, #skills-section, #welcome-section {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#contact-section {
+    margin-top: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-tile p {
+    text-align: center;
+}
+
+img {
+   max-width: 500px;
+   height: 300px;
+   margin: 25px;
+  
+}
+@media screen and (min-width: 768px) {
+#sectionOne, #sectionTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width: 767px) {
+  #projects img {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  header {
+    position: relative;
+  }
+ #navbar {
+    position: absolute;
+    left: 20px;
+  }
+  
+ #navbar ul {
+      padding-left: 0px;
+  }
+
+#navbar a{
+      font-size: 0.5em;
+ }
+  
+  #projects {
+    height: auto;
+  }
+}
+
+
+
+header {
+    position: relative;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    font-size: 1.8em;
+    font-family: "ABeeZee", sans-serif;
+   
+}
+
+#navbar ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 5px;
+}
+
+body, html, main {
+    height: 100%;
+    
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+#skills-section p {
+    text-align: center;
+    
+}
+
+body {
+    font-family: "Alegreya", sans-serif;
+    background: rgba(13, 185, 237, 0.9); 
+    background: -webkit-linear-gradient(rgba(13, 185, 237, 0.9), rgba(255, 192, 203, 0.83), rgb(159, 240, 159)); 
+    background: -o-linear-gradient(rgba(13, 185, 237, 0.9), rgba(255, 192, 203, 0.83), rgb(159, 240, 159)); 
+    background: -moz-linear-gradient(rgba(13, 185, 237, 0.9), rgba(255, 192, 203, 0.83), rgb(159, 240, 159)); 
+    background: linear-gradient(rgba(13, 185, 237, 0.9), rgba(255, 192, 203, 0.83), rgb(159, 240, 159)); 
+}
+
+
+
+#contact-section {
+    font-size: 3em;
+}
+
+
+.contact-div {
+    margin: 5px;
+    padding: 5px;
+}
+
+.clear{
+    clear: both;
+}
+
+
+section {
+    padding-top: 30px;
+}
+
+#skills-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+}
+
+#welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
